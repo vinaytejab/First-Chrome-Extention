@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Block offensive words",
+  "description": "Blocks offensive words on web while surfing.",
+  "version": "1.2",
+  "icons": { "96": "icon-stark.png" },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery-3.4.0.min.js", "hide.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
