@@ -4,7 +4,7 @@ kw = ['killed','Shit','Piss off','Asshole','Muder','hate speech','bitch','bastar
 tags = "SPANEMBIULOLI";
 total = 0;
 
-//parsing to the opened page on by on 
+//parsing to the opened page one by one 
 //has a function defined hide which it execuets if keyword is found
 
 for(var ii = 0; ii < kw.length; ii++)
