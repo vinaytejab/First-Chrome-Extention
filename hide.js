@@ -1,6 +1,6 @@
 
 //keywords to block on web
-kw = ['killed','Shit','Piss off','Asshole','Muder','hate speech','bitch','bastard','bloody hell']
+kw = ['','',''] // keywords to be inserted in the [],(which will be blocked)
 tags = "SPANEMBIULOLI";
 total = 0;
 
